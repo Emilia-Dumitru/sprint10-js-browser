@@ -1,0 +1,12 @@
+#myButton{
+    color: red;
+    cursor: pointer;
+}
+body{
+    background-image: url(/tema5/imgs/serv1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+
