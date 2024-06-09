@@ -7,7 +7,7 @@ function getFormValue(e) {
     e.preventDefault();
     const firstName = document.getElementById("nume").value;
     const lastName = document.getElementById("prenume").value;
-    const  email = document.getElementById("email").value;
+    const email = document.getElementById("email").value;
     const tel = document.getElementById("telefon").value;
     const message =document.getElementById("mesaj").value;
 
