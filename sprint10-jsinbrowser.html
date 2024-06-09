@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS In Browser-Sprint 10</title>
     <link rel="stylesheet" href="/tema5/style.css" 
+    <script src="/tema5/firstjs.js"></script>
 </head>
 
 <body>
@@ -60,27 +61,26 @@
         <p> Va invita sa va bucurati de rasfat si stralucire</p>
         <P>Vino sa ne cunoastem!</P>
     </div>
-    <form>
+    <form id="form1" onsubmit="getFormValue(event)">
         Numele tau
-        <input type="text" name="nume" placeholder="Nume">
-        <input type="text" name="prenume" placeholder="Prenume">
+        <input id="nume" type="text" name="nume" placeholder="Nume">
+        <input id="prenume" type="text" name="prenume" placeholder="Prenume">
         <br />
         Email
-        <input type="text" name="email" placeholder="Email">
+        <input id="email" type="text" name="email" placeholder="Email">
         <br />
         Telefon
-        <input type="text" name="telefon" placeholder="Telefon">
+        <input id="telefon" type="text" name="telefon" placeholder="Telefon">
         <div>
             Mesaj
         </div>
         <div>
-            <textarea name="mesaj" placeholder="Mesaj.."></textarea>
+            <textarea id="mesaj" name="mesaj" placeholder="Mesaj.."></textarea>
         </div>
         <p>Esti de accord cu termenii si conditiile noastre?
             <input type="checkbox" name="termsAndConditions" value="Yes"> Yes
         </p>
         <button id="myButton" type="submit"> Trimite </button>
-        <script src="/tema5/firstjs.js"></script>
     </form>
     </div>
 </body>
